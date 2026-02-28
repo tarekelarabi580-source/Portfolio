@@ -1,58 +1,63 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Tarek | Frontend Developer</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Tarek Portfolio</title>
 
-    <!-- Bootstrap -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
 <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
 
-<!-- Hero Section -->
-<section class="hero">
-    <div class="container text-center">
-        <h1>Hi, I'm Tarek 👋</h1>
-        <p class="mt-3">Frontend Developer specialized in building responsive and modern websites.</p>
-        <a href="#projects" class="btn btn-custom mt-4">View My Work</a>
+<div class="main-container">
+
+    <div class="sidebar">
+        <h5>Categories</h5>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
     </div>
-</section>
 
-<!-- Projects Section -->
-<section id="projects" class="projects bg-light">
-    <div class="container text-center">
-        <h2 class="section-title">My Projects</h2>
-        <div class="row">
+    <div class="content">
 
-            <div class="col-md-4 mb-4">
-                <div class="card p-3">
-                    <h5>E-commerce Website</h5>
-                    <p>Responsive online store built with Bootstrap.</p>
-                    <a href="#" class="btn btn-primary btn-sm">Live Demo</a>
-                </div>
-            </div>
-
-            <div class="col-md-4 mb-4">
-                <div class="card p-3">
-                    <h5>Landing Page</h5>
-                    <p>Modern landing page with clean UI design.</p>
-                    <a href="#" class="btn btn-primary btn-sm">Live Demo</a>
-                </div>
-            </div>
-
-            <div class="col-md-4 mb-4">
-                <div class="card p-3">
-                    <h5>Dashboard UI</h5>
-                    <p>Admin dashboard layout using Bootstrap grid.</p>
-                    <a href="#" class="btn btn-primary btn-sm">Live Demo</a>
-                </div>
-            </div>
-
+        <div id="about" class="about-box">
+            <h1>Tarek Elarabi</h1>
+            <p>Frontend Developer specialized in building responsive modern web applications.</p>
         </div>
+
+        <div id="skills">
+            <h3>My Skills</h3>
+            <div class="skills mt-3">
+                <span>HTML</span>
+                <span>CSS</span>
+                <span>Bootstrap</span>
+                <span>JavaScript</span>
+            </div>
+        </div>
+
+        <div id="projects" class="mt-5">
+            <h3>Projects</h3>
+            <div class="row mt-3">
+                <div class="col-md-6 mb-3">
+                    <div class="p-4 bg-dark rounded">
+                        <h5>E-commerce Website</h5>
+                        <p>Modern responsive store built using Bootstrap.</p>
+                    </div>
+                </div>
+                <div class="col-md-6 mb-3">
+                    <div class="p-4 bg-dark rounded">
+                        <h5>Landing Page</h5>
+                        <p>Clean landing page UI design.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
     </div>
-</section>
+
+</div>
 
 </body>
 </html>
